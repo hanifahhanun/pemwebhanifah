@@ -1,0 +1,31 @@
+Project UAS deadline: 
+--------------------
+1. Buatlah modul 'Kategori' di dashboard (v)
+   - Tambah Kategori v
+   - Edit Kategori v
+   - Hapus Kategori v
+2. Buatlah modul 'Users' di dashboard (v)
+   - Tambah User v
+   - Edit User v
+   - Hapus User v
+3. Modifikasilah tabel user, tambahkan v
+   field: role -> admin, operator
+
+4. Buatlah pengaturan hak akses halaman (v)
+   berdasarkan role: hak aksesnya di -if-
+   perlu session untuk menyimpan role.
+   - admin -> bisa mengakses semua menu
+              (dashboard, tambah buku,  
+              kategori, users, data buku)   
+   - operator -> hanya bisa akses menu:
+                 (dashboard, data buku) 
+
+5. Tambahkan keterangan jumlah data buku
+   di halaman data buku
+   =sebelum tabel kita menambahkan kata:
+   jumlah data buku yang terdaftar "3"
+6. Tambahkan fitur edit dan view data buku 
+   di halaman data buku (v, tapi belum berfungsi)
+7. lengkapi modul daftar buku dengan paging (http://localhost/books/user_guide/libraries/pagination.html) (v)
+   khusus di bagian daftar buku saja. bisa dipelajari mll user guide CI.
+   supaya tabel tidak terlalu panjang, maka diberi page.
